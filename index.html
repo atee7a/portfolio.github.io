@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(29, 29, 72);
+        }
+
+        .left {
+            font-size: 1.4rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(186, 99, 186);
+            font-size: 1.4rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+            margin: 120px 0;
+            padding: 20px;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection .btn {
+            background-color: rgb(69, 69, 118);
+            color: white;
+            border-radius: 6px;
+            border: 1px solid white;
+            font-size: 20px;
+            padding: 7px;
+            cursor: pointer;
+        }
+
+        .leftsection .btn:hover {
+            color: rgb(124, 83, 154);
+            font-size: 1.4rem;
+        }
+
+        .rightsection img {
+
+            width: 90%;
+
+
+        }
+
+        .purple {
+            color: purple;
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(110, 44, 110);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        .secondsection h1 {
+            font-size: 2.5rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 1.4px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 70px;
+            width: 180px;
+            font-size: 20px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 70px;
+            color: grey;
+            width: 150px;
+            font-size: 12px;
+        }
+
+        footer {
+            background-color: black;
+            height: 150px;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 125px;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 25px;
+        }
+
+        .second-footer .image-bottom {
+            width: 30px;
+            position: relative;
+            bottom: -88px;
+            left: -9px;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h1> Ateefa's Portfolio </h1>
+            </div>
+            <div class="right"></div>
+            <ul>
+
+                <li><a href="index.html">
+                        <h3>Home</h3>
+                    </a> </li>
+                <li><a href="about.html">
+                        <h3>About </h3>
+                    </a> </li>
+                <li><a href="skills.html">
+                        <h3>Skills </h3>
+                    </a> </li>
+                <li><a href="project.html">
+                        <h3>Projects </h3>
+                    </a> </li>
+                <li><a href="contact.html">
+                        <h3>Contact Me </h3>
+                    </a> </li>
+
+            </ul>
+        </nav>
+    </header>
+    <header>
+        <main>
+            <section class="firstsection">
+                <div class="leftsection">
+                    My Name is <span class="purple">Ateefa Siddiqa</span>
+                    <div>and I am a Passionate frontend developer</div>
+
+                    <span id="element"></span>
+                    <div class="button">
+                        <a href="Resume.png">
+                            <button class="btn">Download Resume</button></a>
+                        <button class="btn">Visit GitHub</button>
+                    </div>
+
+
+                </div>
+
+
+                <div class="rightsection">
+                    <img src="bg.png.png" alt="">
+
+                </div>
+
+            </section>
+
+
+    </header>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first-footer">
+                <h2>Ateefa's Portfolio</h2>
+            </div>
+            <div class="second-footer">
+                <img class="image-bottom" src="watsapp.png" alt="">
+                <img class="image-bottom" src="telegram.png" alt="">
+                <img class="image-bottom" src="instagram.png" alt="">
+            </div>
+        </div>
+        <br>
+        <div class="footer-rights">
+            Copyright &#169; ateefasportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
